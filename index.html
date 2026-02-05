@@ -634,16 +634,16 @@
         }
 
         /* ═══════════════════════════════════════════════════════════════
-           CTA CV SECTION
+           CTA  SECTION
         ═══════════════════════════════════════════════════════════════ */
-        .cta-cv {
+        .cta- {
             padding: 100px 24px;
             background: var(--bg-secondary);
             text-align: center;
             position: relative;
         }
 
-        .cta-cv::before {
+        .cta-::before {
             content: '';
             position: absolute;
             top: 0;
@@ -653,7 +653,7 @@
             background: linear-gradient(90deg, transparent, var(--border), transparent);
         }
 
-        .cta-cv::after {
+        .cta-::after {
             content: '';
             position: absolute;
             top: 50%;
@@ -665,14 +665,14 @@
             pointer-events: none;
         }
 
-        .cta-cv-content {
+        .cta--content {
             position: relative;
             z-index: 1;
             max-width: 600px;
             margin: 0 auto;
         }
 
-        .cta-cv-icon {
+        .cta--icon {
             width: 80px;
             height: 80px;
             background: var(--bg-card);
@@ -685,21 +685,21 @@
             font-size: 36px;
         }
 
-        .cta-cv-title {
+        .cta--title {
             font-family: 'Syne', sans-serif;
             font-size: clamp(24px, 5vw, 40px);
             font-weight: 700;
             margin-bottom: 16px;
         }
 
-        .cta-cv-text {
+        .cta--text {
             font-size: 16px;
             color: var(--text-secondary);
             margin-bottom: 32px;
             line-height: 1.7;
         }
 
-        .cta-cv-btn {
+        .cta--btn {
             display: inline-flex;
             align-items: center;
             gap: 12px;
@@ -717,13 +717,13 @@
             box-shadow: 0 10px 40px -10px rgba(230, 57, 70, 0.5);
         }
 
-        .cta-cv-btn:hover {
+        .cta--btn:hover {
             background: var(--accent-dim);
             transform: translateY(-4px);
             box-shadow: 0 20px 50px -15px rgba(230, 57, 70, 0.6);
         }
 
-        .cta-cv-btn svg {
+        .cta--btn svg {
             width: 20px;
             height: 20px;
             fill: currentColor;
@@ -878,9 +878,9 @@
             }
             .person-photo { width: 70px; height: 70px; margin-bottom: 0; flex-shrink: 0; }
             
-            .cta-cv { padding: 80px 16px; }
-            .cta-cv-icon { width: 60px; height: 60px; font-size: 28px; }
-            .cta-cv-btn { padding: 16px 28px; font-size: 14px; }
+            .cta- { padding: 80px 16px; }
+            .cta--icon { width: 60px; height: 60px; font-size: 28px; }
+            .cta--btn { padding: 16px 28px; font-size: 14px; }
             
             .social-links { flex-direction: column; align-items: center; }
             .social-link { width: 100%; max-width: 280px; justify-content: center; }
@@ -913,7 +913,7 @@
             .testimonial-card { padding: 12px; }
             .person-photo { width: 60px; height: 60px; }
             
-            .cta-cv { padding: 60px 12px; }
+            .cta- { padding: 60px 12px; }
         }
     </style>
 </head>
@@ -1072,7 +1072,7 @@
             <div class="cta-cv-icon">📄</div>
             <h2 class="cta-cv-title">Need the classic format?</h2>
             <p class="cta-cv-text">Download my resume to get all the details about my background, skills, and experience in one document.</p>
-            <a href="CV - NATHAN ORRYE.pdf" download class="cta-cv-btn">
+            <a href="ORRYE NATHAN-CV.pdf" download class="cta-cv-btn">
                 <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
                 Download my CV
             </a>
